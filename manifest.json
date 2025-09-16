@@ -1,0 +1,18 @@
+{
+"manifest_version": 3,
+"name": "No Tab Throttle Accurate Timers",
+"version": "1.0.0",
+"description": "Keep JavaScript timers accurate in background tabs. Prevent Chrome’s throttling of setTimeout and setInterval.",
+"background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+
+    "scripting"
+  ],
+  
+  "host_permissions": [
+"<all_urls>"
+
+]
+}
